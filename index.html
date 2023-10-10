@@ -32,12 +32,12 @@
             </div>
           </a>
           <ul class="header-nav-menu">
-            <li class="header-nav-menu-item active">
+            <li class="header-nav-menu-item">
               <a class="header-nav-menu-item-link" href="./index.html"
                 >Studio</a
               >
             </li>
-            <li class="header-nav-menu-item">
+            <li class="header-nav-menu-item active">
               <a class="header-nav-menu-item-link" href="./portfolio.html"
                 >Portfolio</a
               >
@@ -63,6 +63,102 @@
             </li>
           </ul>
         </address>
+        <button
+          class="button-menu-nav js-open-menu"
+          aria-expanded="true"
+          aria-controls="mobile-nav"
+        >
+          <svg class="icon-menu-burger" width="8" height="8">
+            <use href="./images/icons.svg#hamburger"></use>
+          </svg>
+        </button>
+        <div
+          class="header-nav-mobile js-menu-container is-open"
+          id="mobile-nav"
+        >
+          <ul class="header-nav-menu-mobile">
+            <li class="header-nav-menu-item-mobile">
+              <a class="header-nav-menu-item-link-mobile" href="./index.html"
+                >Studio</a
+              >
+            </li>
+            <li class="header-nav-menu-item-mobile active">
+              <a
+                class="header-nav-menu-item-link-mobile"
+                href="./portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li class="header-nav-menu-item-mobile">
+              <a class="header-nav-menu-item-link-mobile" href="/">Contacts </a>
+            </li>
+          </ul>
+          <div class="container-address-socialmedia-mobile">
+            <address class="address-mobile">
+              <ul class="address-detail-list-mobile">
+                <li class="address-detail-list-item-mobile">
+                  <a
+                    class="address-detail-list-item-link-mobile tel"
+                    href="tel:+380441111111"
+                    >+11 (000) 111-11-11</a
+                  >
+                </li>
+                <li class="address-detail-list-item-mobile">
+                  <a
+                    class="address-detail-list-item-link-mobile mail"
+                    href="mailto:info@devstudio.com"
+                    >info@devstudio.com</a
+                  >
+                </li>
+              </ul>
+            </address>
+            <div class="container-socialmedia-navmenu-mobile">
+              <ul class="socialmedia-links-navmenu-mobile">
+                <li class="socialmedia-links-listitem-navmenu-mobile">
+                  <svg
+                    class="icon-socialmedia-link-navmenu-mobile"
+                    width="16"
+                    height="16"
+                  >
+                    <use href="./images/icons.svg#instagram"></use>
+                  </svg>
+                </li>
+                <li class="socialmedia-links-listitem-navmenu-mobile">
+                  <svg
+                    class="icon-socialmedia-link-navmenu-mobile"
+                    width="16"
+                    height="16"
+                  >
+                    <use href="./images/icons.svg#twitter"></use>
+                  </svg>
+                </li>
+                <li class="socialmedia-links-listitem-navmenu-mobile">
+                  <svg
+                    class="icon-socialmedia-link-navmenu-mobile"
+                    width="16"
+                    height="16"
+                  >
+                    <use href="./images/icons.svg#facebook"></use>
+                  </svg>
+                </li>
+                <li class="socialmedia-links-listitem-navmenu-mobile">
+                  <svg
+                    class="icon-socialmedia-link-navmenu-mobile"
+                    width="16"
+                    height="16"
+                  >
+                    <use href="./images/icons.svg#linkedin"></use>
+                  </svg>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <button class="button-navmenu-close-mobile js-close-menu">
+            <svg class="icon-navmenu-close" width="8" height="8">
+              <use href="./images/icons.svg#close-black"></use>
+            </svg>
+          </button>
+        </div>
       </div>
     </header>
 
@@ -139,18 +235,22 @@
           <h2 class="section-services-title">What are we doing</h2>
           <ul class="services-list">
             <li class="services-list-item">
-              <img src="./images/desktop-image.jpg" alt="desktop" width="360" />
+              <img
+                src="./images/desktop-image-desktop.jpg"
+                alt="desktop"
+                width="360"
+              />
             </li>
             <li class="services-list-item">
               <img
-                src="./images/mobilephone-image1.jpg"
+                src="./images/mobilephone-image1-desktop.jpg"
                 alt="mobile phone"
                 width="360"
               />
             </li>
             <li class="services-list-item">
               <img
-                src="./images/mobilephone-image2.jpg"
+                src="./images/mobilephone-image2-desktop.jpg"
                 alt="mobilephone"
                 width="360"
               />
@@ -168,7 +268,7 @@
             <li class="team-list-item">
               <img
                 class="team-list-item-image"
-                src="./images/product-designer.jpg"
+                src="./images/product-designer-mobile.jpg"
                 alt="product designer"
                 width="264"
               />
@@ -202,7 +302,7 @@
             <li class="team-list-item">
               <img
                 class="team-list-item-image"
-                src="./images/frontend-developer.jpg"
+                src="./images/frontend-developer-mobile.jpg"
                 alt="frontend developer"
                 width="264"
               />
@@ -236,7 +336,7 @@
             <li class="team-list-item">
               <img
                 class="team-list-item-image"
-                src="./images/marketing.jpg"
+                src="./images/marketing-mobile.jpg"
                 alt="marketing"
                 width="264"
               />
@@ -270,7 +370,7 @@
             <li class="team-list-item">
               <img
                 class="team-list-item-image"
-                src="./images/ui-designer.jpg"
+                src="./images/ui-designer-mobile.jpg"
                 alt="ui designer"
                 width="264"
               />
@@ -516,5 +616,6 @@
     <!-- Modal Script -->
 
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
