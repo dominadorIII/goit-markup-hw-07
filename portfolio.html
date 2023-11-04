@@ -22,136 +22,119 @@
   <body>
     <!-- Header Section -->
 
-    <header class="header-section">
-      <div class="container container-header-section">
-        <nav class="header-nav">
+    <header class="section header">
+      <div class="container header__container">
+        <nav class="header__nav">
           <a class="logo" href="./index.html">
-            <div class="container-logo">
-              <span class="logo-web">Web</span>
-              <span class="logo-studio">Studio</span>
+            <div class="logo__container">
+              <span class="logo--web">Web</span>
+              <span class="logo--studio">Studio</span>
             </div>
           </a>
-          <ul class="header-nav-menu">
-            <li class="header-nav-menu-item">
-              <a class="header-nav-menu-item-link" href="./index.html"
-                >Studio</a
-              >
+          <ul class="header__nav-menu__list">
+            <li class="header__nav-menu__item">
+              <a class="header__nav-menu__link" href="./index.html">Studio</a>
             </li>
-            <li class="header-nav-menu-item active">
-              <a class="header-nav-menu-item-link" href="./portfolio.html"
+            <li class="header__nav-menu__item header__nav-menu__item--active">
+              <a class="header__nav-menu__link" href="./portfolio.html"
                 >Portfolio</a
               >
             </li>
-            <li class="header-nav-menu-item">
-              <a class="header-nav-menu-item-link" href="/">Contacts </a>
+            <li class="header__nav-menu__item">
+              <a class="header__nav-menu__link" href="/">Contacts </a>
             </li>
           </ul>
         </nav>
-        <address class="address">
-          <ul class="adress-detail-list">
-            <li class="address-detail-list-item">
-              <a
-                class="adress-detail-list-item-link"
-                href="mailto:info@devstudio.com"
+        <address class="header__address">
+          <ul class="header__address__list">
+            <li class="header__address__item">
+              <a class="header__address__link" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
-            <li class="address-detail-list-item">
-              <a class="adress-detail-list-item-link" href="tel:+380441111111"
+            <li class="header__address__item">
+              <a class="header__address__link" href="tel:+380441111111"
                 >+38044 111 11 11</a
               >
             </li>
           </ul>
         </address>
         <button
-          class="button-menu-nav js-open-menu"
+          class="header__button__nav-menu--open js-open-menu"
           aria-expanded="false"
           aria-controls="mobile-nav"
         >
-          <svg class="icon-menu-burger" width="8" height="8">
+          <svg class="header__icon--burger" width="8" height="8">
             <use href="./images/icons.svg#hamburger"></use>
           </svg>
         </button>
-        <div class="header-nav-mobile js-menu-container" id="mobile-nav">
-          <ul class="header-nav-menu-mobile">
-            <li class="header-nav-menu-item-mobile">
-              <a class="header-nav-menu-item-link-mobile" href="./index.html"
+        <div
+          class="header__container__nav--mobile js-menu-container"
+          id="mobile-nav"
+        >
+          <ul class="header__nav-menu__list--mobile">
+            <li
+              class="header__nav-menu__item--mobile header__nav-menu__item--mobile--active"
+            >
+              <a class="header__nav-menu__link--mobile" href="./index.html"
                 >Studio</a
               >
             </li>
-            <li class="header-nav-menu-item-mobile active">
-              <a
-                class="header-nav-menu-item-link-mobile"
-                href="./portfolio.html"
+            <li class="header__nav-menu__item--mobile">
+              <a class="header__nav-menu__link--mobile" href="./portfolio.html"
                 >Portfolio</a
               >
             </li>
-            <li class="header-nav-menu-item-mobile">
-              <a class="header-nav-menu-item-link-mobile" href="/">Contacts </a>
+            <li class="header__nav-menu__item--mobile">
+              <a class="header__nav-menu__link--mobile" href="/">Contacts </a>
             </li>
           </ul>
-          <div class="container-address-socialmedia-mobile">
-            <address class="address-mobile">
-              <ul class="address-detail-list-mobile">
-                <li class="address-detail-list-item-mobile">
+          <div class="header__container--address-socialmedia">
+            <address class="header__address--mobile">
+              <ul class="header__address__list--mobile">
+                <li class="header__address__item--mobile">
                   <a
-                    class="address-detail-list-item-link-mobile tel"
+                    class="header__address__link--mobile tel"
                     href="tel:+380441111111"
                     >+11 (000) 111-11-11</a
                   >
                 </li>
-                <li class="address-detail-list-item-mobile">
+                <li class="header__address__item--mobile">
                   <a
-                    class="address-detail-list-item-link-mobile mail"
+                    class="header__address__link--mobile mail"
                     href="mailto:info@devstudio.com"
                     >info@devstudio.com</a
                   >
                 </li>
               </ul>
             </address>
-            <div class="container-socialmedia-navmenu-mobile">
-              <ul class="socialmedia-links-navmenu-mobile">
-                <li class="socialmedia-links-listitem-navmenu-mobile">
-                  <svg
-                    class="icon-socialmedia-link-navmenu-mobile"
-                    width="16"
-                    height="16"
-                  >
+            <div class="header__container--socialmedia">
+              <ul class="header__socialmedia__list--mobile">
+                <li class="header__socialmedia__item--mobile">
+                  <svg class="header__icon--socialmedia" width="16" height="16">
                     <use href="./images/icons.svg#instagram"></use>
                   </svg>
                 </li>
-                <li class="socialmedia-links-listitem-navmenu-mobile">
-                  <svg
-                    class="icon-socialmedia-link-navmenu-mobile"
-                    width="16"
-                    height="16"
-                  >
+                <li class="header__socialmedia__item--mobile">
+                  <svg class="header__icon--socialmedia" width="16" height="16">
                     <use href="./images/icons.svg#twitter"></use>
                   </svg>
                 </li>
-                <li class="socialmedia-links-listitem-navmenu-mobile">
-                  <svg
-                    class="icon-socialmedia-link-navmenu-mobile"
-                    width="16"
-                    height="16"
-                  >
+                <li class="header__socialmedia__item--mobile">
+                  <svg class="header__icon--socialmedia" width="16" height="16">
                     <use href="./images/icons.svg#facebook"></use>
                   </svg>
                 </li>
-                <li class="socialmedia-links-listitem-navmenu-mobile">
-                  <svg
-                    class="icon-socialmedia-link-navmenu-mobile"
-                    width="16"
-                    height="16"
-                  >
+                <li class="header__socialmedia__item--mobile">
+                  <svg class="header__icon--socialmedia" width="16" height="16">
                     <use href="./images/icons.svg#linkedin"></use>
                   </svg>
                 </li>
               </ul>
             </div>
           </div>
-          <button class="button-navmenu-close-mobile js-close-menu">
-            <svg class="icon-navmenu-close" width="8" height="8">
+          <button class="header__button--close-mobile js-close-menu">
+            <svg class="header__icon--close-mobile" width="8" height="8">
               <use href="./images/icons.svg#close-black"></use>
             </svg>
           </button>
@@ -208,22 +191,22 @@
                 <picture>
                   <source
                     srcset="
-                    ./images/banking-app-interface-desktop.jpg    1x,
-                    ./images/banking-app-interface-desktop@2x.jpg 2x
+                      ./images/banking-app-interface-desktop.jpg    1x,
+                      ./images/banking-app-interface-desktop@2x.jpg 2x
                     "
                     media="(min-width:1158px)"
                   />
                   <source
                     srcset="
-                    ./images/banking-app-interface-tablet.jpg    1x,
-                    ./images/banking-app-interface-tablet@2x.jpg 2x
+                      ./images/banking-app-interface-tablet.jpg    1x,
+                      ./images/banking-app-interface-tablet@2x.jpg 2x
                     "
                     media="(min-width:768px)"
                   />
                   <source
                     srcset="
-                    ./images/banking-app-interface-mobile.jpg    1x,
-                    ./images/banking-app-interface-mobile@2x.jpg 2x
+                      ./images/banking-app-interface-mobile.jpg    1x,
+                      ./images/banking-app-interface-mobile@2x.jpg 2x
                     "
                   />
                   <img
@@ -251,22 +234,22 @@
                 <picture>
                   <source
                     srcset="
-                    ./images/cashless-payment-desktop.jpg    1x,
-                    ./images/cashless-payment-desktop@2x.jpg 2x
+                      ./images/cashless-payment-desktop.jpg    1x,
+                      ./images/cashless-payment-desktop@2x.jpg 2x
                     "
                     media="(min-width:1158px)"
                   />
                   <source
                     srcset="
-                    ./images/cashless-payment-tablet.jpg    1x,
-                    ./images/cashless-payment-tablet@2x.jpg 2x
+                      ./images/cashless-payment-tablet.jpg    1x,
+                      ./images/cashless-payment-tablet@2x.jpg 2x
                     "
                     media="(min-width:768px)"
                   />
                   <source
                     srcset="
-                    ./images/cashless-payment-mobile.jpg    1x,
-                    ./images/cashless-payment-mobile@2x.jpg 2x
+                      ./images/cashless-payment-mobile.jpg    1x,
+                      ./images/cashless-payment-mobile@2x.jpg 2x
                     "
                   />
                   <img
@@ -292,22 +275,22 @@
                 <picture>
                   <source
                     srcset="
-                    ./images/medication-app-desktop.jpg    1x,
-                    ./images/medication-app-desktop@2x.jpg 2x
+                      ./images/medication-app-desktop.jpg    1x,
+                      ./images/medication-app-desktop@2x.jpg 2x
                     "
                     media="(min-width:1158px)"
                   />
                   <source
                     srcset="
-                    ./images/medication-app-tablet.jpg    1x,
-                    ./images/medication-app-tablet@2x.jpg 2x
+                      ./images/medication-app-tablet.jpg    1x,
+                      ./images/medication-app-tablet@2x.jpg 2x
                     "
                     media="(min-width:768px)"
                   />
                   <source
                     srcset="
-                    ./images/medication-app-mobile.jpg    1x,
-                    ./images/medication-app-mobile@2x.jpg 2x
+                      ./images/medication-app-mobile.jpg    1x,
+                      ./images/medication-app-mobile@2x.jpg 2x
                     "
                   />
                   <img
@@ -333,22 +316,22 @@
                 <picture>
                   <source
                     srcset="
-                    ./images/taxi-service-desktop.jpg    1x,
-                    ./images/taxi-service-desktop@2x.jpg 2x
+                      ./images/taxi-service-desktop.jpg    1x,
+                      ./images/taxi-service-desktop@2x.jpg 2x
                     "
                     media="(min-width:1158px)"
                   />
                   <source
                     srcset="
-                    ./images/taxi-service-tablet.jpg    1x,
-                    ./images/taxi-service-tablet@2x.jpg 2x
+                      ./images/taxi-service-tablet.jpg    1x,
+                      ./images/taxi-service-tablet@2x.jpg 2x
                     "
                     media="(min-width:768px)"
                   />
                   <source
                     srcset="
-                    ./images/taxi-service-mobile.jpg    1x,
-                    ./images/taxi-service-mobile@2x.jpg 2x
+                      ./images/taxi-service-mobile.jpg    1x,
+                      ./images/taxi-service-mobile@2x.jpg 2x
                     "
                   />
                   <img
@@ -374,22 +357,22 @@
                 <picture>
                   <source
                     srcset="
-                    ./images/screen-illustrations-desktop.jpg    1x,
-                    ./images/screen-illustrations-desktop@2x.jpg 2x
+                      ./images/screen-illustrations-desktop.jpg    1x,
+                      ./images/screen-illustrations-desktop@2x.jpg 2x
                     "
                     media="(min-width:1158px)"
                   />
                   <source
                     srcset="
-                    ./images/screen-illustrations-tablet.jpg    1x,
-                    ./images/screen-illustrations-tablet@2x.jpg 2x
+                      ./images/screen-illustrations-tablet.jpg    1x,
+                      ./images/screen-illustrations-tablet@2x.jpg 2x
                     "
                     media="(min-width:768px)"
                   />
                   <source
                     srcset="
-                    ./images/screen-illustrations-mobile.jpg    1x,
-                    ./images/screen-illustrations-mobile@2x.jpg 2x
+                      ./images/screen-illustrations-mobile.jpg    1x,
+                      ./images/screen-illustrations-mobile@2x.jpg 2x
                     "
                   />
                   <img
@@ -415,22 +398,22 @@
                 <picture>
                   <source
                     srcset="
-                    ./images/online-courses-desktop.jpg    1x,
-                    ./images/online-courses-desktop@2x.jpg 2x
+                      ./images/online-courses-desktop.jpg    1x,
+                      ./images/online-courses-desktop@2x.jpg 2x
                     "
                     media="(min-width:1158px)"
                   />
                   <source
                     srcset="
-                    ./images/online-courses-tablet.jpg    1x,
-                    ./images/online-courses-tablet@2x.jpg 2x
+                      ./images/online-courses-tablet.jpg    1x,
+                      ./images/online-courses-tablet@2x.jpg 2x
                     "
                     media="(min-width:768px)"
                   />
                   <source
                     srcset="
-                    ./images/online-courses-mobile.jpg    1x,
-                    ./images/online-courses-mobile@2x.jpg 2x
+                      ./images/online-courses-mobile.jpg    1x,
+                      ./images/online-courses-mobile@2x.jpg 2x
                     "
                   />
                   <img
@@ -456,22 +439,22 @@
                 <picture>
                   <source
                     srcset="
-                    ./images/instagram-stories-desktop.jpg    1x,
-                    ./images/instagram-stories-desktop@2x.jpg 2x
+                      ./images/instagram-stories-desktop.jpg    1x,
+                      ./images/instagram-stories-desktop@2x.jpg 2x
                     "
                     media="(min-width:1158px)"
                   />
                   <source
                     srcset="
-                    ./images/instagram-stories-tablet.jpg    1x,
-                    ./images/instagram-stories-tablet@2x.jpg 2x
+                      ./images/instagram-stories-tablet.jpg    1x,
+                      ./images/instagram-stories-tablet@2x.jpg 2x
                     "
                     media="(min-width:768px)"
                   />
                   <source
                     srcset="
-                    ./images/instagram-stories-mobile.jpg    1x,
-                    ./images/instagram-stories-mobile@2x.jpg 2x
+                      ./images/instagram-stories-mobile.jpg    1x,
+                      ./images/instagram-stories-mobile@2x.jpg 2x
                     "
                   />
                   <img
@@ -499,22 +482,22 @@
                 <picture>
                   <source
                     srcset="
-                    ./images/organic-food-desktop.jpg    1x,
-                    ./images/organic-food-desktop@2x.jpg 2x
+                      ./images/organic-food-desktop.jpg    1x,
+                      ./images/organic-food-desktop@2x.jpg 2x
                     "
                     media="(min-width:1158px)"
                   />
                   <source
                     srcset="
-                    ./images/organic-food-tablet.jpg    1x,
-                    ./images/organic-food-tablet@2x.jpg 2x
+                      ./images/organic-food-tablet.jpg    1x,
+                      ./images/organic-food-tablet@2x.jpg 2x
                     "
                     media="(min-width:768px)"
                   />
                   <source
                     srcset="
-                    ./images/organic-food-mobile.jpg    1x,
-                    ./images/organic-food-mobile@2x.jpg 2x
+                      ./images/organic-food-mobile.jpg    1x,
+                      ./images/organic-food-mobile@2x.jpg 2x
                     "
                   />
                   <img
@@ -540,22 +523,22 @@
                 <picture>
                   <source
                     srcset="
-                    ./images/fresh-coffee-desktop.jpg    1x,
-                    ./images/fresh-coffee-desktop@2x.jpg 2x
+                      ./images/fresh-coffee-desktop.jpg    1x,
+                      ./images/fresh-coffee-desktop@2x.jpg 2x
                     "
                     media="(min-width:1158px)"
                   />
                   <source
                     srcset="
-                    ./images/fresh-coffee-tablet.jpg    1x,
-                    ./images/fresh-coffee-tablet@2x.jpg 2x
+                      ./images/fresh-coffee-tablet.jpg    1x,
+                      ./images/fresh-coffee-tablet@2x.jpg 2x
                     "
                     media="(min-width:768px)"
                   />
                   <source
                     srcset="
-                    ./images/fresh-coffee-mobile.jpg    1x,
-                    ./images/fresh-coffee-mobile@2x.jpg 2x
+                      ./images/fresh-coffee-mobile.jpg    1x,
+                      ./images/fresh-coffee-mobile@2x.jpg 2x
                     "
                   />
                   <img
